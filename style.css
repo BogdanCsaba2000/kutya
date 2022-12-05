@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(240, 240, 250);
+}
+header{    
+    background-position: center center;
+    background-image: url(../img/kutyisk.jpg);
+    height: 350px;
+}
+
+h1{
+    background-color: rgba(255, 255, 255, 0.668)     ;
+    margin-top: 80px;
+    padding-left: 11rem;  
+	font-family: Verdana, Geneva, Tahoma, sans-serif        ;
+	font-weight:       bold   ;
+	color: #2c71ca;
+}
+ 
+h2{    
+    margin-top: 10px;   
+    font-variant: small-caps;
+    color: #2c71ca;
+    border-color: #2c71ca; 
+    border-left:3px dotted ;
+    padding:5px 15px;
+    background-color: lightsteelblue;
+}
+
+h3{    
+    font-weight: bold;
+    color: #894f3b;
+    font-size: 1.3rem;
+    letter-spacing: normal ;  
+    text-align: center;
+}
+ 
+
+li{
+    list-style-image: url(../img/bolya.png);
+    float: left;
+    margin-left: 40px;
+}
+
+
+td,th{
+    text-align: center;
+}
+
+thead>tr:first-child{    
+    letter-spacing: 2px; 
+    text-transform: uppercase; 
+
+}
+thead>th:first-child{
+    line-height: 10px;
+}
+.navbar{
+	background-color: lightsteelblue;
+}
+p{
+    text-align: justify;
+    text-indent:  15px;
+}
